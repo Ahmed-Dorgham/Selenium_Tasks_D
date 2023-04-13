@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/ahmed/IdeaProjects/Eirad">
+        <classes>
+            <class name="testCases.LoginTest">
+                <methods>
+                    <include name="clickONLoginButtonWithoutdata"/>
+                    <include name="loginWithInValidID"/>
+                    <include name="loginWithInValidPassword"/>
+                    <include name="loginWithemptyID"/>
+                    <include name="loginWithValidData"/>
+                </methods>
+            </class>
+            <class name="testCases.AddNewItemTest">
+                <methods>
+                    <include name="addNewItem"/>
+                    <include name="openItemsListPage"/>
+                    <include name="createNewItem"/>
+                </methods>
+            </class>
+            <class name="testCases.AddingItemAndMakeSalesInvoiceTest">
+                <methods>
+                    <include name="addingItemAndMakeSalesInvoice"/>
+                    <include name="openItemsListPage"/>
+                    <include name="createAndSaveNewItem"/>
+                    <include name="openSalesInvoicesListPage"/>
+                    <include name="makeSalesInvoicesForCreatedItem"/>
+                </methods>
+            </class>
+            <class name="testCases.AddingCreatedItemToPriceListAndMakeSalesInvoiceTest">
+
+                <methods>
+                    <include name="addCreatedItemToPriceListAndMakeSalesInvoice"/>
+                    <include name="openItemsListPage"/>
+                    <include name="createNewItem"/>
+                    <include name="openPriceListPage"/>
+                    <include name="openSalesInvoicesListPage"/>
+                    <include name="makeSalesInvoicesForCreatedItem"/>
+                </methods>
+            </class>
+            <class name="testCases.MakeReturnNoteTest">
+                <methods>
+                    <include name="createReturnNote"/>
+                    <include name="openItemsListPage"/>
+                    <include name="createNewItem"/>
+                    <include name="openPriceListPage"/>
+                    <include name="openSalesInvoicesListPage"/>
+                    <include name="makeSalesInvoicesForCreatedItem"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

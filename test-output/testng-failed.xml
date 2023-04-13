@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="C:/Users/ahmed/IdeaProjects/Eirad(failed)">
+    <classes>
+      <class name="testCases.AddingItemAndMakeSalesInvoiceTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="openBrowser"/>
+          <include name="addingItemAndMakeSalesInvoice" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testCases.AddingItemAndMakeSalesInvoiceTest -->
+      <class name="testCases.MakeReturnNoteTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="openBrowser"/>
+          <include name="createReturnNote" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testCases.MakeReturnNoteTest -->
+      <class name="testCases.AddingCreatedItemToPriceListAndMakeSalesInvoiceTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="openBrowser"/>
+          <include name="addCreatedItemToPriceListAndMakeSalesInvoice" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testCases.AddingCreatedItemToPriceListAndMakeSalesInvoiceTest -->
+    </classes>
+  </test> <!-- C:/Users/ahmed/IdeaProjects/Eirad(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
